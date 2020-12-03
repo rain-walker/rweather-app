@@ -1,0 +1,66 @@
+.basics {
+  width: 100%;
+  padding: 5px;
+}
+.basics-city {
+  font-size: 2em;
+  font-weight: 700;
+}
+.basics-day {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.weather {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.weather-half {
+  width: 50%;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.weather-status {
+  display: flex;
+}
+.weather-status-image {
+  width: 20vw;
+  height: 20vw;
+  background-position: center;
+  background-size: cover;
+}
+.weather-status-report {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.weather-status-report-temperature {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+.weather-details {
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 25vh;
+  background-color: #fff5;
+  border-radius: 10px;
+}
+.weather-details-report {
+  width: calc(33% - 10px);
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weather-details-report-value {
+  font-size: 1.2em;
+}
+.weather-details-report-name {
+  font-size: 0.9em;
+}
